@@ -1,0 +1,43 @@
+body {
+  background: rgb(188, 188, 253);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "calibri", sans-serif;
+  text-transform: capitalize;
+}
+
+.container {
+  text-align: center;
+  padding: 2rem;
+  border-radius: 5px;
+  background-color: aliceblue;
+  height: 400px;
+  width: 400px;
+}
+
+#quoteBtn {
+  border: none;
+  color: white;
+  background: black;
+  font-size: 1.3rem;
+  margin: 1.5rem;
+  padding: 0.5rem, 0.5rem;
+  border-radius: 6px;
+  cursor: pointer;
+}
+#quoteBtn:hover {
+  color: black;
+  background-color: wheat;
+}
+
+blockquote {
+  background-color: #f9f9f9;
+  margin: 1.5rem;
+}
+
+quoter {
+  background-color: #f9f9f9;
+  margin: 1.5rem;
+}
